@@ -1,5 +1,7 @@
 $(document).ready(function() {
-  const test = false;
+  
+//   Time
+    const test = false;
    const now = moment().format('MMMM Do YYYY');
    let nowHour24 = moment().format('H');
     let nowHour12 = moment().format('h');
@@ -12,10 +14,10 @@ $(document).ready(function() {
     $dateHeading.text(now);
     
 
-    let storedPlans = JSON.parse(localStorage.getItem("storedPlans"));
-  if (test) { console.log(storedPlans); }
-  if (storedPlans !== null) {
-      planTextArr = storedPlans;
+    let storedTasks = JSON.parse(localStorage.getItem("storedTasks"));
+  if (test) { console.log(s); }
+  if (storedTasks !== null) {
+      planTextArr = storedTasks;
     } else {
     planTextArr = new Array(9);
 }
