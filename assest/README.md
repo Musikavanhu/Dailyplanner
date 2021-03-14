@@ -1,1 +1,3 @@
 # plannerhomework
+
+A lot of the information was referenced using the old activities and youtube videos. The main design of the project came to life after finding out the use of jquery and CSS. Not part of the normal work flow but the use of Jquery made the project a little bit faster to build especially with the layout. once the layout was completed the next step was to save locally which took the longest but all in all a fun project. 
